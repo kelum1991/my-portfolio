@@ -1,6 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import CountDown from 'reactjs-countdown';
+//import CountDown from 'reactjs-countdown';
 
 import "../components/layout.css"
 
@@ -26,9 +26,7 @@ const IndexPage = () => (
             <h1>COMING SOON</h1>
           </div>
           <div className="counter">
-          <CountDown
-                    deadline="July 22, 2021"
-                />
+          
           </div>
           <div className="main-desc">
             <p>We are launching soon please reload after days</p>
