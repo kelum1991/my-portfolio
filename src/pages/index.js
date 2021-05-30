@@ -1,11 +1,10 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-//import CountDown from 'reactjs-countdown';
 
 import "../components/layout.css"
 
-
 const IndexPage = () => (
+  
   <div className="main-container">
     <div className="main-container__grid">
       <div className="main-container__grid-left">

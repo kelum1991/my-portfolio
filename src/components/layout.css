@@ -752,3 +752,76 @@ ul.react-countdown {
   background-position: bottom right;
   background-color: #0B0D1A;
 }
+
+/* Media query */
+@media screen and (max-width: 1024px) {
+  .main-container__grid {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner-wrapper {
+    width: 100%;
+    height: auto;
+    padding-top: 86%;
+  }
+  
+  .content-wrapper {}
+  
+  .main-container {
+    height: 100vh;
+  }
+  
+  .heading h1 {
+    font-size: 33px;
+    line-height: 36px;
+    margin-bottom: 0;
+  }
+  
+  .logo {
+    margin-bottom: 16px;
+  }
+  
+  .counter {
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #b17acc;
+    text-align: center;
+    padding: 13px 0;
+  }
+  
+  .logo {
+    max-width: 110px;
+  }
+  
+  .main-desc p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  body {
+    overflow-y: scroll;
+    height: 100%;
+  }
+  
+  .main-container {
+    /* height: 100%; */
+  }
+  .main-container__grid-right {
+    height: 100%;
+}
+
+.content-wrapper {
+    padding: 20px 0;
+    background-color: #0a0d1a;
+    height: 100%;
+}
+
+.main-container__grid {
+    height: 100%;
+}
+
+.main-container {height: 100vh;}
+}
+
